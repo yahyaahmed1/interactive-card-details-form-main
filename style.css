@@ -262,6 +262,9 @@ footer {
   .form {
     margin-top: 220px;
   }
+  main.form-completed {
+    margin-top: 100px;
+  }
   footer {
     position: unset;
     bottom: 0;
