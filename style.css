@@ -27,6 +27,7 @@ body {
   column-gap: 185px;
 }
 .form {
+  margin-top: 190px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -169,12 +170,11 @@ div.confirm-btn {
   align-items: center;
   justify-content: center;
   font-size: 14px;
-  margin-bottom: 15px;
 }
 .confirm-error {
   display: none;
   text-align: center;
-  margin: 25px 15px 15px;
+  margin: 25px 15px;
   color: var(--red-errors);
   font-size: 11px;
 }
@@ -230,9 +230,9 @@ footer {
   body {
     grid-template-columns: 1fr;
     grid-template-rows: 30% 1fr;
-    gap: 175px;
   }
   aside {
+    position: relative;
     background-image: url(./images/bg-main-mobile.png);
   }
   .front-card {
@@ -260,9 +260,9 @@ footer {
     left: 260px;
   }
   footer {
-    position: absolute;
+    position: unset;
     bottom: 0;
     left: auto;
-    margin: 25px 0 15px;
+    margin-top: 25px;
   }
 }
